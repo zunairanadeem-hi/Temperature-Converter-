@@ -24,7 +24,7 @@ Make sure you have **python 3** installed on your system
 ## step
 1:**Clone the repository:**
 ``bash
-git clone[https://github.com/zunairanadeem-hi/temperature-converter.git]
+git clone[https://github.com/zunairanadeem-hi/Temperature Converter.git]
 
 2:bash: temperature-converter
 
