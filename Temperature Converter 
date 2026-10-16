@@ -1,0 +1,24 @@
+print("----------welcome to temperature convertar machine------------------------")
+def convert_cto_f(c):
+    return (c*9/5)+32
+def convert_fto_c(f):
+    return (f-32)*5/9
+print("------------menu detail---------------")
+print("1:celsius to fahrehiet")
+print("2:fahrehiet to celsius")
+print("3: exit")
+while True:
+    choice=int(input("enter the choice:"))  
+    if(choice==1):
+         celsius=int(input("enter the celsius:"))
+         result=convert_cto_f(celsius)  
+         print("convert the celsuis temperature into fahrehiet is:",result)
+    elif(choice==2):  
+         fahrehiet=int(input("enter the fahrehiet:"))
+         result=convert_fto_c(fahrehiet) 
+         print("convert the fahrehiet temperature into celsuis is:",result)
+    elif(choice==3):
+         print("exit the program")
+    else:
+         print("you entered the wrong choices")
+         break
